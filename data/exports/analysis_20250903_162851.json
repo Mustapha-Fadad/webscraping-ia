@@ -1,0 +1,91 @@
+{
+  "cycle_id": "cycle_20250903_162627",
+  "start_time": "2025-09-03T16:26:27.839027",
+  "end_time": "2025-09-03T16:28:51.563249",
+  "duration_seconds": 143.724222,
+  "summary": {
+    "total_items_collected": 63,
+    "total_insights": 0,
+    "total_recommendations": 3,
+    "analysis_success": false
+  },
+  "data_collection": {
+    "total_items": 63,
+    "sources_accessed": {
+      "TechCrunch": 3,
+      "The Verge": 8,
+      "News Search": 1,
+      "Reddit": 49,
+      "Hacker News": 1,
+      "Quora (Simulated)": 1
+    }
+  },
+  "analysis": {
+    "summary": {
+      "total_items": 63,
+      "analysis_completed": false,
+      "error": "can't compare offset-naive and offset-aware datetimes"
+    },
+    "insights": [],
+    "trends": [],
+    "sentiment_analysis": {}
+  },
+  "recommendations": [
+    {
+      "id": "content_educational_1756913331",
+      "type": "content_type",
+      "content_type": "tutorial",
+      "title": "Create comprehensive learning resource",
+      "priority": 7,
+      "urgency": "medium",
+      "reasoning": "Educational content typically performs well in tech communities",
+      "target_audience": "learners",
+      "estimated_engagement": "high",
+      "hashtags": [
+        "#tutorial",
+        "#learning",
+        "#education"
+      ],
+      "strategy": "knowledge_sharing",
+      "rank": 1,
+      "generated_at": "2025-09-03T16:28:51.561249",
+      "confidence_score": 0.7999999999999999
+    },
+    {
+      "id": "content_interactive_1756913331",
+      "type": "content_type",
+      "content_type": "qa",
+      "title": "Host interactive Q&A session",
+      "priority": 6,
+      "urgency": "medium",
+      "reasoning": "Interactive content drives engagement and community participation",
+      "target_audience": "active_community",
+      "estimated_engagement": "very_high",
+      "hashtags": [
+        "#AMA",
+        "#QA",
+        "#interactive"
+      ],
+      "strategy": "community_engagement",
+      "rank": 2,
+      "generated_at": "2025-09-03T16:28:51.561249",
+      "confidence_score": 0.7999999999999999
+    },
+    {
+      "id": "timing_optimal_1756913331",
+      "type": "timing_optimization",
+      "content_type": "meta",
+      "title": "Optimal posting time: 19:00",
+      "priority": 4,
+      "urgency": "low",
+      "reasoning": "Peak engagement time with 1.3x boost",
+      "target_audience": "content_creators",
+      "estimated_engagement": "1.3x normal",
+      "schedule_for": "2025-09-03T19:28:51.561249",
+      "strategy": "timing_optimization",
+      "rank": 3,
+      "generated_at": "2025-09-03T16:28:51.561249",
+      "confidence_score": 0.7999999999999999
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "cycle_id": "cycle_20250919_151839",
+  "start_time": "2025-09-19T15:18:39.768118",
+  "end_time": "2025-09-19T15:21:25.159771",
+  "duration_seconds": 165.391653,
+  "summary": {
+    "total_items_collected": 137,
+    "total_insights": 8,
+    "total_recommendations": 10,
+    "analysis_success": true
+  },
+  "data_collection": {
+    "total_items": 137,
+    "sources_accessed": {
+      "arstechnica.com": 11,
+      "techreport.com": 1,
+      "TechCrunch": 10,
+      "VentureBeat": 10,
+      "The Verge": 10,
+      "News Search": 1,
+      "Reddit": 93,
+      "Quora (Simulated)": 1
+    }
+  },
+  "analysis": {
+    "summary": {
+      "total_items": 137,
+      "text_items": 137,
+      "analysis_completed": true,
+      "analysis_timestamp": "2025-09-19T15:21:25.156770"
+    },
+    "basic_stats": {
+      "total_articles": 137,
+      "date_range": {
+        "start": "2025-08-27T13:00:00",
+        "end": "2025-09-19T15:19:16"
+      },
+      "sources": {
+        "arstechnica.com": 11,
+        "techreport.com": 1,
+        "TechCrunch": 10,
+        "VentureBeat": 10,
+        "The Verge": 10,
+        "News Search": 1,
+        "Reddit": 93,
+        "Quora (Simulated)": 1
+      },
+      "categories": {
+        "General": 106,
+        "RSS Feed": 30,
+        "Keyword Search": 1
+      },
+      "avg_content_length": 532.8467153284671,
+      "total_unique_sources": 8,
+      "word_count_stats": {
+        "mean": 72.54014598540147,
+        "median": 25.0,
+        "std": 126.6913232670454,
+        "min": 5,
+        "max": 857
+      },
+      "sentiment_stats": {
+        "avg_sentiment": 0.10475886930722045,
+        "positive_ratio": 0.3722627737226277,
+        "negative_ratio": 0.06569343065693431,
+        "neutral_ratio": 0.5620437956204379
+      }
+    },
+    "trends": [
+      {
+        "topic": "ai",
+        "mentions": 214,
+        "velocity": 2.6666666666666665,
+        "sentiment": 0.12561073531724276,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      {
+        "topic": "you",
+        "mentions": 88,
+        "velocity": 1.0833333333333333,
+        "sentiment": 0.16962149375503255,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      {
+        "topic": "from",
+        "mentions": 43,
+        "velocity": 1.0416666666666667,
+        "sentiment": 0.25419166502714663,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      {
+        "topic": "how",
+        "mentions": 47,
+        "velocity": 0.9583333333333334,
+        "sentiment": 0.17332361353982995,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      {
+        "topic": "what",
+        "mentions": 50,
+        "velocity": 0.9166666666666666,
+        "sentiment": 0.16699094363544037,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      {
+        "topic": "data",
+        "mentions": 64,
+        "velocity": 0.7083333333333334,
+        "sentiment": 0.1435571886786251,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      {
+        "topic": "its",
+        "mentions": 30,
+        "velocity": 0.7083333333333334,
+        "sentiment": 0.241765093118446,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      {
+        "topic": "new",
+        "mentions": 25,
+        "velocity": 0.7083333333333334,
+        "sentiment": 0.09798020606844136,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      {
+        "topic": "just",
+        "mentions": 26,
+        "velocity": 0.625,
+        "sentiment": 0.15541254964076778,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      {
+        "topic": "like",
+        "mentions": 26,
+        "velocity": 0.625,
+        "sentiment": 0.14874684914521125,
+        "direction": "rising",
+        "confidence": 0.9
+      }
+    ],
+    "sentiment_analysis": {
+      "overall_sentiment": 0.1690532168980445,
+      "sentiment_distribution": {
+        "positive": 0.5172413793103449,
+        "negative": 0.13793103448275862,
+        "neutral": 0.3448275862068966
+      },
+      "hourly_trends": [
+        {
+          "hour": "2025-08-27T13:00:00",
+          "avg_sentiment": -0.3166666666666667,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-08-28T15:00:00",
+          "avg_sentiment": 0.5,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-08-28T21:00:00",
+          "avg_sentiment": 0.36666666666666664,
+          "article_count": 2,
+          "sentiment_volatility": 0.3299831645537222
+        },
+        {
+          "hour": "2025-08-28T23:00:00",
+          "avg_sentiment": 0.3840909090909091,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-08-30T00:00:00",
+          "avg_sentiment": 0.22999999999999998,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-08-30T01:00:00",
+          "avg_sentiment": -0.1,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-09-18T18:00:00",
+          "avg_sentiment": 0.25,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-09-18T19:00:00",
+          "avg_sentiment": 0.1,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-09-18T20:00:00",
+          "avg_sentiment": 0.13636363636363635,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-09-18T21:00:00",
+          "avg_sentiment": 0.8,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-09-18T22:00:00",
+          "avg_sentiment": 0.35,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-09-19T03:00:00",
+          "avg_sentiment": -0.25,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-09-19T10:00:00",
+          "avg_sentiment": 0.016666666666666666,
+          "article_count": 1,
+          "sentiment_volatility": 0.0
+        },
+        {
+          "hour": "2025-09-19T12:00:00",
+          "avg_sentiment": 0.28507575757575754,
+          "article_count": 3,
+          "sentiment_volatility": 0.3773067025592618
+        },
+        {
+          "hour": "2025-09-19T13:00:00",
+          "avg_sentiment": 0.31830357142857146,
+          "article_count": 2,
+          "sentiment_volatility": 0.17614534995629177
+        },
+        {
+          "hour": "2025-09-19T14:00:00",
+          "avg_sentiment": 0.05534136002886002,
+          "article_count": 4,
+          "sentiment_volatility": 0.1982958465290389
+        },
+        {
+          "hour": "2025-09-19T15:00:00",
+          "avg_sentiment": 0.059259259259259255,
+          "article_count": 6,
+          "sentiment_volatility": 0.29490355541411295
+        }
+      ],
+      "sentiment_by_source": {
+        "News Search": {
+          "avg_sentiment": -0.04999999999999999,
+          "article_count": 1
+        },
+        "TechCrunch": {
+          "avg_sentiment": 0.20043290043290043,
+          "article_count": 7
+        },
+        "The Verge": {
+          "avg_sentiment": 0.19035553952220619,
+          "article_count": 9
+        },
+        "VentureBeat": {
+          "avg_sentiment": 0.20439393939393938,
+          "article_count": 7
+        },
+        "arstechnica.com": {
+          "avg_sentiment": 0.020138888888888873,
+          "article_count": 4
+        },
+        "techreport.com": {
+          "avg_sentiment": 0.325,
+          "article_count": 1
+        }
+      }
+    },
+    "insights": [
+      {
+        "title": "Analyzed 137 articles from 8 different sources",
+        "type": "general",
+        "priority": 5
+      },
+      {
+        "title": "Top trending topic: 'ai' with 214 mentions and rising trend",
+        "type": "general",
+        "priority": 5
+      },
+      {
+        "title": "Rising trends: ai, you, from",
+        "type": "general",
+        "priority": 5
+      },
+      {
+        "title": "High-velocity topics generating significant discussion: 10 topics",
+        "type": "general",
+        "priority": 5
+      },
+      {
+        "title": "Sentiment is neutral - opportunity for engagement",
+        "type": "general",
+        "priority": 5
+      },
+      {
+        "title": "Primary source: Reddit (93 articles)",
+        "type": "general",
+        "priority": 5
+      },
+      {
+        "title": "Peak activity around 15:00 - optimal time for engagement",
+        "type": "general",
+        "priority": 5
+      },
+      {
+        "title": "Short-form content prevalent - quick updates and news",
+        "type": "general",
+        "priority": 5
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "trend_ai_1758291685",
+      "type": "trend_based",
+      "content_type": "news",
+      "title": "Breaking: Latest developments in ai",
+      "topic": "ai",
+      "priority": 9,
+      "urgency": "high",
+      "reasoning": "Trending topic with 214 mentions, rising trend",
+      "target_audience": "general",
+      "estimated_engagement": "very_high",
+      "hashtags": [
+        "#ai",
+        "#trending",
+        "#tech"
+      ],
+      "trend_data": {
+        "topic": "ai",
+        "mentions": 214,
+        "velocity": 2.6666666666666665,
+        "sentiment": 0.12561073531724276,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      "rank": 1,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.95
+    },
+    {
+      "id": "trend_you_1758291685",
+      "type": "trend_based",
+      "content_type": "discussion",
+      "title": "Hot take: The future of you",
+      "topic": "you",
+      "priority": 8,
+      "urgency": "medium",
+      "reasoning": "Trending topic with 88 mentions, rising trend",
+      "target_audience": "general",
+      "estimated_engagement": "high",
+      "hashtags": [
+        "#you",
+        "#trending",
+        "#tech"
+      ],
+      "trend_data": {
+        "topic": "you",
+        "mentions": 88,
+        "velocity": 1.0833333333333333,
+        "sentiment": 0.16962149375503255,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      "rank": 2,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.95
+    },
+    {
+      "id": "trend_from_1758291685",
+      "type": "trend_based",
+      "content_type": "discussion",
+      "title": "Debate: from vs alternatives",
+      "topic": "from",
+      "priority": 8,
+      "urgency": "medium",
+      "reasoning": "Trending topic with 43 mentions, rising trend",
+      "target_audience": "general",
+      "estimated_engagement": "high",
+      "hashtags": [
+        "#from",
+        "#trending",
+        "#tech"
+      ],
+      "trend_data": {
+        "topic": "from",
+        "mentions": 43,
+        "velocity": 1.0416666666666667,
+        "sentiment": 0.25419166502714663,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      "rank": 3,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.95
+    },
+    {
+      "id": "trend_how_1758291685",
+      "type": "trend_based",
+      "content_type": "discussion",
+      "title": "Community discussion: Best practices for how",
+      "topic": "how",
+      "priority": 8,
+      "urgency": "medium",
+      "reasoning": "Trending topic with 47 mentions, rising trend",
+      "target_audience": "general",
+      "estimated_engagement": "high",
+      "hashtags": [
+        "#how",
+        "#trending",
+        "#tech"
+      ],
+      "trend_data": {
+        "topic": "how",
+        "mentions": 47,
+        "velocity": 0.9583333333333334,
+        "sentiment": 0.17332361353982995,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      "rank": 4,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.95
+    },
+    {
+      "id": "trend_what_1758291685",
+      "type": "trend_based",
+      "content_type": "discussion",
+      "title": "What's your experience with what?",
+      "topic": "what",
+      "priority": 8,
+      "urgency": "medium",
+      "reasoning": "Trending topic with 50 mentions, rising trend",
+      "target_audience": "general",
+      "estimated_engagement": "high",
+      "hashtags": [
+        "#what",
+        "#trending",
+        "#tech"
+      ],
+      "trend_data": {
+        "topic": "what",
+        "mentions": 50,
+        "velocity": 0.9166666666666666,
+        "sentiment": 0.16699094363544037,
+        "direction": "rising",
+        "confidence": 0.9
+      },
+      "rank": 5,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.95
+    },
+    {
+      "id": "content_educational_1758291685",
+      "type": "content_type",
+      "content_type": "tutorial",
+      "title": "Create comprehensive learning resource",
+      "priority": 7,
+      "urgency": "medium",
+      "reasoning": "Educational content typically performs well in tech communities",
+      "target_audience": "learners",
+      "estimated_engagement": "high",
+      "hashtags": [
+        "#tutorial",
+        "#learning",
+        "#education"
+      ],
+      "strategy": "knowledge_sharing",
+      "rank": 6,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.8999999999999999
+    },
+    {
+      "id": "engagement_high_activity_1758291685",
+      "type": "engagement_optimization",
+      "content_type": "discussion",
+      "title": "Community roundup: This week's highlights",
+      "priority": 6,
+      "urgency": "low",
+      "reasoning": "High community activity (137 posts) - good time for summary content",
+      "target_audience": "active_community",
+      "estimated_engagement": "medium",
+      "hashtags": [
+        "#roundup",
+        "#community",
+        "#highlights"
+      ],
+      "strategy": "content_curation",
+      "rank": 7,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.8999999999999999
+    },
+    {
+      "id": "content_interactive_1758291685",
+      "type": "content_type",
+      "content_type": "qa",
+      "title": "Host interactive Q&A session",
+      "priority": 6,
+      "urgency": "medium",
+      "reasoning": "Interactive content drives engagement and community participation",
+      "target_audience": "active_community",
+      "estimated_engagement": "very_high",
+      "hashtags": [
+        "#AMA",
+        "#QA",
+        "#interactive"
+      ],
+      "strategy": "community_engagement",
+      "rank": 8,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.8999999999999999
+    },
+    {
+      "id": "engagement_diverse_sources_1758291685",
+      "type": "content_diversity",
+      "content_type": "showcase",
+      "title": "Community spotlight: Diverse voices and perspectives",
+      "priority": 5,
+      "urgency": "low",
+      "reasoning": "Content from 8 different sources shows good diversity",
+      "target_audience": "general",
+      "estimated_engagement": "medium",
+      "hashtags": [
+        "#diversity",
+        "#community",
+        "#voices"
+      ],
+      "strategy": "highlight_diversity",
+      "rank": 9,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.8999999999999999
+    },
+    {
+      "id": "timing_optimal_1758291685",
+      "type": "timing_optimization",
+      "content_type": "meta",
+      "title": "Optimal posting time: 19:00",
+      "priority": 4,
+      "urgency": "low",
+      "reasoning": "Peak engagement time with 1.3x boost",
+      "target_audience": "content_creators",
+      "estimated_engagement": "1.3x normal",
+      "schedule_for": "2025-09-19T19:21:25.158331",
+      "strategy": "timing_optimization",
+      "rank": 10,
+      "generated_at": "2025-09-19T15:21:25.158331",
+      "confidence_score": 0.8999999999999999
+    }
+  ]
+}

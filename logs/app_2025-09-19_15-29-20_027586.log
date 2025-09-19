@@ -1,0 +1,236 @@
+2025-09-19 15:29:20.230 | INFO     | scrapers.social_scraper:_setup_twitter_api:47 - Twitter API initialized successfully
+2025-09-19 15:29:20.437 | INFO     | scrapers.forum_scraper:_setup_reddit_api:43 - Reddit API initialized successfully
+2025-09-19 15:29:20.449 | INFO     | utils.storage:init_database:69 - Database initialized successfully
+2025-09-19 15:29:20.451 | INFO     | utils.storage:init_database:69 - Database initialized successfully
+2025-09-19 15:29:28.448 | INFO     | __main__:run_analysis_cycle:29 - Starting analysis cycle...
+2025-09-19 15:29:28.450 | INFO     | ai_agent.orchestrator:run_analysis_cycle:290 - Starting complete analysis cycle...
+2025-09-19 15:29:28.453 | INFO     | ai_agent.orchestrator:collect_all_data:49 - Starting data collection from all sources...
+2025-09-19 15:29:28.455 | INFO     | ai_agent.orchestrator:_collect_news_data:84 - Collecting news data...
+2025-09-19 15:29:28.459 | INFO     | scrapers.news_scraper:run_full_scraping:315 - Starting full news scraping pipeline...
+2025-09-19 15:29:28.461 | INFO     | ai_agent.orchestrator:_collect_social_data:104 - Collecting social media data...
+2025-09-19 15:29:28.462 | INFO     | scrapers.news_scraper:scrape_techcrunch:30 - Scraping TechCrunch...
+2025-09-19 15:29:28.464 | INFO     | scrapers.social_scraper:scrape_social_async:234 - Starting async social media scraping...
+2025-09-19 15:29:28.466 | INFO     | ai_agent.orchestrator:_collect_forum_data:123 - Collecting forum data...
+2025-09-19 15:29:28.469 | INFO     | scrapers.forum_scraper:scrape_forums_async:412 - Starting async forum scraping...
+2025-09-19 15:29:28.472 | INFO     | ai_agent.orchestrator:_collect_trend_data:142 - Collecting trend data...
+2025-09-19 15:29:28.475 | INFO     | scrapers.trend_scraper:analyze_hashtag_trends:33 - Analyzing hashtag trends for the past 24 hours...
+2025-09-19 15:29:28.480 | INFO     | scrapers.trend_scraper:analyze_hashtag_trends:49 - Analyzed 25 hashtag trends
+2025-09-19 15:29:28.483 | INFO     | scrapers.social_scraper:search_tweets:62 - Searching tweets for keyword: AI
+2025-09-19 15:29:28.485 | INFO     | scrapers.social_scraper:search_tweets:62 - Searching tweets for keyword: artificial intelligence
+2025-09-19 15:29:28.504 | INFO     | scrapers.social_scraper:search_tweets:62 - Searching tweets for keyword: machine learning
+2025-09-19 15:29:28.508 | INFO     | scrapers.social_scraper:search_tweets:62 - Searching tweets for keyword: data science
+2025-09-19 15:29:28.513 | INFO     | scrapers.social_scraper:search_tweets:62 - Searching tweets for keyword: python
+2025-09-19 15:29:28.538 | INFO     | scrapers.forum_scraper:scrape_reddit:62 - Scraping Reddit: r/artificial
+2025-09-19 15:29:28.554 | INFO     | scrapers.forum_scraper:scrape_reddit:62 - Scraping Reddit: r/MachineLearning
+2025-09-19 15:29:28.566 | INFO     | ai_agent.orchestrator:_collect_trend_data:152 - Collected 25 trend items
+2025-09-19 15:29:30.110 | ERROR    | scrapers.social_scraper:search_tweets:105 - Error searching tweets for machine learning: 401 Unauthorized
+89 - Invalid or expired token.
+2025-09-19 15:29:30.111 | INFO     | scrapers.social_scraper:_simulate_tweet_data:113 - Simulating tweet data for machine learning
+2025-09-19 15:29:30.112 | INFO     | scrapers.forum_scraper:scrape_reddit:62 - Scraping Reddit: r/programming
+2025-09-19 15:29:30.142 | ERROR    | scrapers.social_scraper:search_tweets:105 - Error searching tweets for artificial intelligence: 401 Unauthorized
+89 - Invalid or expired token.
+2025-09-19 15:29:30.142 | INFO     | scrapers.social_scraper:_simulate_tweet_data:113 - Simulating tweet data for artificial intelligence
+2025-09-19 15:29:30.143 | INFO     | scrapers.forum_scraper:scrape_reddit:62 - Scraping Reddit: r/datascience
+2025-09-19 15:29:30.159 | ERROR    | scrapers.social_scraper:search_tweets:105 - Error searching tweets for data science: 401 Unauthorized
+89 - Invalid or expired token.
+2025-09-19 15:29:30.160 | INFO     | scrapers.social_scraper:_simulate_tweet_data:113 - Simulating tweet data for data science
+2025-09-19 15:29:30.160 | INFO     | scrapers.forum_scraper:scrape_reddit:62 - Scraping Reddit: r/technology
+2025-09-19 15:29:30.164 | ERROR    | scrapers.social_scraper:search_tweets:105 - Error searching tweets for AI: 401 Unauthorized
+89 - Invalid or expired token.
+2025-09-19 15:29:30.164 | INFO     | scrapers.social_scraper:_simulate_tweet_data:113 - Simulating tweet data for AI
+2025-09-19 15:29:30.165 | INFO     | scrapers.forum_scraper:search_stackoverflow:170 - Searching StackOverflow for: AI
+2025-09-19 15:29:30.223 | ERROR    | scrapers.social_scraper:search_tweets:105 - Error searching tweets for python: 401 Unauthorized
+89 - Invalid or expired token.
+2025-09-19 15:29:30.224 | INFO     | scrapers.social_scraper:_simulate_tweet_data:113 - Simulating tweet data for python
+2025-09-19 15:29:30.225 | INFO     | scrapers.forum_scraper:search_stackoverflow:170 - Searching StackOverflow for: artificial intelligence
+2025-09-19 15:29:30.232 | INFO     | scrapers.social_scraper:scrape_facebook_posts:155 - Attempting to collect Facebook data...
+2025-09-19 15:29:30.265 | INFO     | scrapers.social_scraper:scrape_facebook_posts:182 - Collected 15 Facebook posts (simulated)
+2025-09-19 15:29:30.265 | INFO     | scrapers.social_scraper:scrape_linkedin_posts:187 - Collecting LinkedIn data...
+2025-09-19 15:29:30.266 | INFO     | scrapers.social_scraper:scrape_linkedin_posts:229 - Collected 25 LinkedIn posts
+2025-09-19 15:29:30.267 | INFO     | scrapers.social_scraper:scrape_social_async:262 - Async social scraping completed: 90 posts
+2025-09-19 15:29:30.297 | INFO     | scrapers.news_scraper:scrape_techcrunch:78 - Scraped 0 articles from TechCrunch
+2025-09-19 15:29:30.298 | INFO     | scrapers.news_scraper:scrape_generic_news_site:87 - Scraping feeds.feedburner.com...
+2025-09-19 15:29:30.832 | INFO     | scrapers.forum_scraper:search_stackoverflow:213 - Collected 15 questions from StackOverflow
+2025-09-19 15:29:30.834 | INFO     | scrapers.forum_scraper:search_stackoverflow:170 - Searching StackOverflow for: machine learning
+2025-09-19 15:29:30.866 | INFO     | scrapers.forum_scraper:search_stackoverflow:213 - Collected 15 questions from StackOverflow
+2025-09-19 15:29:30.869 | INFO     | scrapers.forum_scraper:search_stackoverflow:170 - Searching StackOverflow for: data science
+2025-09-19 15:29:31.192 | INFO     | scrapers.news_scraper:scrape_generic_news_site:158 - Scraped 0 articles from feeds.feedburner.com
+2025-09-19 15:29:31.204 | INFO     | scrapers.forum_scraper:search_stackoverflow:213 - Collected 15 questions from StackOverflow
+2025-09-19 15:29:31.208 | INFO     | scrapers.forum_scraper:search_stackoverflow:170 - Searching StackOverflow for: python
+2025-09-19 15:29:31.214 | INFO     | scrapers.forum_scraper:search_stackoverflow:213 - Collected 15 questions from StackOverflow
+2025-09-19 15:29:31.256 | INFO     | utils.storage:save_raw_data:97 - Saved 90 items from social (posts)
+2025-09-19 15:29:31.258 | INFO     | ai_agent.orchestrator:_collect_social_data:113 - Collected 90 social media posts
+2025-09-19 15:29:31.559 | INFO     | scrapers.forum_scraper:search_stackoverflow:213 - Collected 15 questions from StackOverflow
+2025-09-19 15:29:34.469 | INFO     | scrapers.news_scraper:scrape_generic_news_site:87 - Scraping www.theverge.com...
+2025-09-19 15:29:34.855 | INFO     | scrapers.news_scraper:scrape_generic_news_site:158 - Scraped 0 articles from www.theverge.com
+2025-09-19 15:29:38.107 | INFO     | scrapers.news_scraper:scrape_generic_news_site:87 - Scraping www.wired.com...
+2025-09-19 15:29:38.465 | INFO     | scrapers.forum_scraper:scrape_reddit:113 - Collected 20 posts from r/MachineLearning
+2025-09-19 15:29:38.609 | INFO     | scrapers.forum_scraper:scrape_reddit:113 - Collected 20 posts from r/datascience
+2025-09-19 15:29:39.023 | INFO     | scrapers.news_scraper:scrape_generic_news_site:158 - Scraped 14 articles from www.wired.com
+2025-09-19 15:29:40.831 | INFO     | scrapers.forum_scraper:scrape_reddit:113 - Collected 20 posts from r/artificial
+2025-09-19 15:29:41.839 | INFO     | scrapers.forum_scraper:scrape_reddit:113 - Collected 20 posts from r/programming
+2025-09-19 15:29:42.088 | INFO     | scrapers.news_scraper:scrape_generic_news_site:87 - Scraping arstechnica.com...
+2025-09-19 15:29:43.649 | INFO     | scrapers.news_scraper:scrape_generic_news_site:158 - Scraped 15 articles from arstechnica.com
+2025-09-19 15:29:46.626 | INFO     | scrapers.news_scraper:scrape_generic_news_site:87 - Scraping www.engadget.com...
+2025-09-19 15:29:47.661 | INFO     | scrapers.news_scraper:scrape_generic_news_site:158 - Scraped 0 articles from www.engadget.com
+2025-09-19 15:29:50.491 | INFO     | scrapers.news_scraper:scrape_generic_news_site:87 - Scraping www.zdnet.com...
+2025-09-19 15:29:51.591 | INFO     | scrapers.news_scraper:scrape_generic_news_site:158 - Scraped 0 articles from www.zdnet.com
+2025-09-19 15:29:54.225 | INFO     | scrapers.news_scraper:scrape_generic_news_site:87 - Scraping techreport.com...
+2025-09-19 15:29:55.028 | INFO     | scrapers.news_scraper:scrape_generic_news_site:158 - Scraped 3 articles from techreport.com
+2025-09-19 15:29:57.672 | INFO     | scrapers.news_scraper:scrape_rss_feeds:216 - Scraping RSS feeds...
+2025-09-19 15:29:58.050 | INFO     | scrapers.news_scraper:scrape_rss_feeds:247 - Scraped 10 articles from TechCrunch
+2025-09-19 15:29:58.715 | INFO     | scrapers.news_scraper:scrape_rss_feeds:247 - Scraped 10 articles from VentureBeat
+2025-09-19 15:29:58.986 | INFO     | scrapers.news_scraper:scrape_rss_feeds:247 - Scraped 10 articles from The Verge
+2025-09-19 15:29:58.987 | INFO     | scrapers.news_scraper:scrape_keyword_news:283 - Searching news for keywords: ['artificial intelligence', 'machine learning', 'deep learning', 'data science', 'python', 'javascript', 'react', 'nodejs', 'docker', 'kubernetes', 'aws', 'cloud computing', 'devops', 'blockchain', 'cryptocurrency', 'cybersecurity', 'iot', 'startup', 'tech innovation', 'digital transformation']
+2025-09-19 15:30:02.757 | INFO     | scrapers.forum_scraper:scrape_reddit:113 - Collected 20 posts from r/technology
+2025-09-19 15:30:02.759 | INFO     | scrapers.forum_scraper:scrape_hackernews:272 - Scraping Hacker News...
+2025-09-19 15:30:09.692 | INFO     | scrapers.forum_scraper:scrape_hackernews:314 - Collected 20 stories from Hacker News
+2025-09-19 15:30:09.694 | INFO     | scrapers.forum_scraper:scrape_quora_topics:364 - Searching Quora for topics: ['AI', 'artificial intelligence', 'machine learning', 'data science', 'python']
+2025-09-19 15:30:09.697 | INFO     | scrapers.forum_scraper:scrape_quora_topics:407 - Collected 25 Quora questions (simulated)
+2025-09-19 15:30:09.699 | INFO     | scrapers.forum_scraper:scrape_forums_async:451 - Async forum scraping completed: 220 posts
+2025-09-19 15:30:09.818 | INFO     | utils.storage:save_raw_data:97 - Saved 220 items from forums (posts)
+2025-09-19 15:30:09.819 | INFO     | ai_agent.orchestrator:_collect_forum_data:132 - Collected 220 forum posts
+2025-09-19 15:30:39.170 | INFO     | scrapers.news_scraper:run_full_scraping:353 - News scraping completed: 122 total articles
+2025-09-19 15:30:39.172 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.174 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.176 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.177 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.180 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.181 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.183 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.184 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.185 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.187 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.189 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.191 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.197 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.200 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.202 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.205 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.207 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.210 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:30:39.212 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.214 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.218 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.222 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:30:39.226 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.228 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.231 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:30:39.234 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:30:39.236 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.239 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:30:39.242 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.244 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.246 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.254 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing content']
+2025-09-19 15:30:39.255 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.258 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.690 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.692 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.894 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.896 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:39.897 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.011 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.013 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.015 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.017 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.019 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.021 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.022 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.024 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.026 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:40.028 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:41.634 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:30:52.604 | INFO     | utils.cleaning:enrich_data:265 - Enriched 72 articles, rejected 50 invalid articles
+2025-09-19 15:30:52.647 | INFO     | utils.storage:save_raw_data:97 - Saved 72 items from news (articles)
+2025-09-19 15:30:52.650 | INFO     | ai_agent.orchestrator:_collect_news_data:94 - Collected 72 news articles
+2025-09-19 15:30:52.652 | INFO     | ai_agent.orchestrator:collect_all_data:70 - Task 0 collected 72 items
+2025-09-19 15:30:52.654 | INFO     | ai_agent.orchestrator:collect_all_data:70 - Task 1 collected 90 items
+2025-09-19 15:30:52.656 | INFO     | ai_agent.orchestrator:collect_all_data:70 - Task 2 collected 220 items
+2025-09-19 15:30:52.657 | INFO     | ai_agent.orchestrator:collect_all_data:70 - Task 3 collected 25 items
+2025-09-19 15:31:32.293 | INFO     | utils.cleaning:remove_duplicates:129 - Removed 276 duplicates from 407 items
+2025-09-19 15:31:34.986 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:34.988 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content lacks proper sentences']
+2025-09-19 15:31:34.990 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content lacks proper sentences']
+2025-09-19 15:31:34.991 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:34.992 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content lacks proper sentences']
+2025-09-19 15:31:34.993 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)']
+2025-09-19 15:31:34.994 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:34.994 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:34.996 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:34.998 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:34.999 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content lacks proper sentences']
+2025-09-19 15:31:35.000 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content lacks proper sentences']
+2025-09-19 15:31:35.002 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:35.003 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content lacks proper sentences']
+2025-09-19 15:31:35.005 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:35.006 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content lacks proper sentences']
+2025-09-19 15:31:35.008 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Missing title', 'Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:35.009 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:35.010 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:35.012 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:35.013 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Title too long']
+2025-09-19 15:31:35.015 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:35.016 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)']
+2025-09-19 15:31:35.294 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)']
+2025-09-19 15:31:35.296 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Title too long']
+2025-09-19 15:31:35.603 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:36.011 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:36.519 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:36.730 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:36.933 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:37.652 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:40.010 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:40.184 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:40.185 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:40.186 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:40.672 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)']
+2025-09-19 15:31:40.673 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Title too long']
+2025-09-19 15:31:40.674 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:40.675 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:40.676 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:40.924 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:40.925 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:40.926 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:40.927 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:40.928 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:40.929 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:40.930 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:40.931 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:40.932 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:40.934 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:42.060 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too long (> 10000 chars)']
+2025-09-19 15:31:42.468 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:42.874 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:42.875 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.421 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences', 'Title too long']
+2025-09-19 15:31:44.423 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.424 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.426 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:44.427 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.429 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences', 'Title too long']
+2025-09-19 15:31:44.430 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Title too long']
+2025-09-19 15:31:44.431 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.432 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.622 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.623 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:44.814 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.816 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.817 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Title too long']
+2025-09-19 15:31:44.818 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.818 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.819 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content lacks proper sentences']
+2025-09-19 15:31:44.820 | DEBUG    | utils.cleaning:enrich_data:209 - Invalid article: ['Content too short (< 10 words)', 'Content lacks proper sentences']
+2025-09-19 15:31:45.021 | INFO     | utils.cleaning:enrich_data:265 - Enriched 59 articles, rejected 72 invalid articles
+2025-09-19 15:31:45.023 | INFO     | ai_agent.orchestrator:collect_all_data:78 - Data collection completed: 59 items collected
+2025-09-19 15:31:45.024 | INFO     | ai_agent.orchestrator:analyze_data:161 - Starting data analysis...
+2025-09-19 15:31:45.133 | INFO     | utils.analytics:calculate_basic_stats:145 - Calculated basic stats for 59 articles
+2025-09-19 15:31:45.209 | INFO     | utils.analytics:analyze_trends:285 - Identified 30 trending topics
+2025-09-19 15:31:45.271 | INFO     | ai_agent.orchestrator:analyze_data:249 - Analysis completed: 15 trends, 8 insights
+2025-09-19 15:31:45.271 | INFO     | ai_agent.orchestrator:generate_recommendations:267 - Generating content recommendations...
+2025-09-19 15:31:45.272 | INFO     | ai_agent.recommender:generate_recommendations:79 - Generating content recommendations...
+2025-09-19 15:31:45.272 | INFO     | ai_agent.recommender:generate_recommendations:120 - Generated 9 recommendations
+2025-09-19 15:31:45.274 | INFO     | ai_agent.orchestrator:generate_recommendations:278 - Generated 9 recommendations
+2025-09-19 15:31:45.289 | INFO     | utils.storage:save_analysis_results:132 - Analysis results saved: analysis_20250919_153145
+2025-09-19 15:31:45.289 | INFO     | ai_agent.orchestrator:run_analysis_cycle:329 - Analysis cycle completed in 136.82 seconds
+2025-09-19 15:31:45.290 | INFO     | __main__:run_analysis_cycle:35 - Analysis cycle completed successfully
